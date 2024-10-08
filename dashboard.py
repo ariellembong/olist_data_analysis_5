@@ -44,7 +44,7 @@ st.pyplot(fig)
 
 # High-value customers Locations
 st.header("High-Value Customers Locations")
-
+# Simplified version of map plotting using Folium
 m = folium.Map(location=[-14.2350, -51.9253], zoom_start=4)
 
 for _, row in top_customer_regions.iterrows():
