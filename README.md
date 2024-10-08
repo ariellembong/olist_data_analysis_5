@@ -1,11 +1,9 @@
 # Olist Data Analysis Dashboard ✨
 
-
-
 ## Setup Environment - Shell/Terminal
 ```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
+mkdir ecommerce_data_analysis
+cd ecommerce_data_analysis
 pipenv install
 pipenv shell
 pip install -r requirements.txt
